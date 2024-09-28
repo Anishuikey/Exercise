@@ -1,0 +1,135 @@
+.box{
+    /* why we use grid instead of using flex 
+    this is easy to implement and maintain our code like a responsive
+    So, yeah that's that.... */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* this 1f means a free space which is taken all width in partions. */
+    gap: 5px;
+}
+.box1{
+    background-color: lightgreen;
+    text-align: center;
+    /* In this above line of code 
+      when you right this line of code you must see
+      the alignment of each grid going to maintain and responsive */
+    padding: 10px 10px
+}
+.box2{
+    background-color: lightpink;
+    text-align: center;
+    padding: 10px 10px
+
+}
+.box3{
+    background-color: lightsteelblue;
+    text-align: center;
+    padding: 10px 10px
+
+}
+.box4{
+    background-color: lightcoral;
+    text-align: center;
+    padding: 10px 10px
+
+}
+
+.grid-box {
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    column-gap: 20px;
+    row-gap: 40px;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.3);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.box-thumbnail{
+    background-color: lightskyblue;
+    padding: 60px;
+}
+
+
+/* new css for project */
+
+.outer-cards-box{
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+}
+
+.request-container{
+    background-color: rgba(0,0,0,0.2);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 5px;
+    margin-bottom: 50px;
+    border: none;
+    outline: none;
+    /* border: 1px solid grey; */
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 0;
+    border: 1px solid grey;
+}
+
+.img1{
+    width: 100%;
+    height: 100%;
+    border: 1px solid grey;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: Roboto,Arial;
+    font-weight: 600;
+    margin: 5px;
+    /* border: 1px solid grey; */
+}
+.second-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    /* border: 1px solid grey; */
+}
+.img2{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 5px;
+    /* border: 1px solid grey; */
+}
+span{
+    text-align: center;
+    margin: 5px;
+    font-size: 15px;
+    font-family: Tahoma;
+    font-weight: 500;
+    /* border: 1px solid grey; */
+}
+.third-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid grey;  */
+}
+button{
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    border-radius: 60px;
+    margin: 5px;
+    background-color: blue;
+    color: white;
+    /* border: 1px solid grey; */
+}
